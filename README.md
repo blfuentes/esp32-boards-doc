@@ -59,3 +59,24 @@ monitor_speed = 115200
 ```
 ### Info
 Does not require any extra boot/serial setup
+
+RGB Ping is 48(requires solder pin in board)
+
+## NanoESP32 C6 double USB-C N16 MuseLab(30 pins)
+### Pinout
+![ESP32 C6 double usb-c N16](./doc/nanoesp32-c6.webp)
+### Platformio config   
+```mk
+; [env:esp32-c6-devkitc-1]
+; platform = espressif32
+; board = esp32-c6-devkitc-1
+; framework = espidf
+; monitor_speed = 115200
+
+board_upload.flash_size = 16MB
+board_upload.maximum_size = 16777216
+```
+### Info
+Does not require any extra boot/serial setup
+
+RGB Ping is 8
