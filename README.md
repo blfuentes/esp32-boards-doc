@@ -15,7 +15,7 @@ monitor_speed = 115200
 ### Info
 Does not require any extra boot/serial setup
 
-## CP2102 30-pin ESP32
+## CH340C 30-pin ESP32
 ### Pinout
 ![ESP32 type C 30-pin pinout](./doc/esp32-typec-30pins.webp)
 ### Platformio config
