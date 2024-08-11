@@ -1,6 +1,20 @@
 # Description
 This project documents the difference between different ESP32 boards and their configuration with platformio
 
+## NodeMCU ESP32-DevKit 30 pines
+### Pinout
+![ESP32 38-pin pinout](./doc/esp32-32.jpg)
+### Platformio config
+```mk
+[env:esp32doit-devkit-v1]
+platform = espressif32
+board = esp32doit-devkit-v1
+framework = arduino
+monitor_speed = 115200
+```
+### Info
+Does not require any extra boot/serial setup
+
 ## NodeMCU-32 38-pin ESP32
 ### Pinout
 ![ESP32 38-pin pinout](./doc/Node_MCU_ESP32_38Pin_pinout.webp)
